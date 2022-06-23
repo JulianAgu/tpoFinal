@@ -21,6 +21,9 @@ Se cambio:
 3.- Agregar Placeholders
 4.- Justificar a la izquierda
 
+-- Conocenos --
+1.-La descripcion de cada personaje
+
 -- Aside/Footer --
 1.- Cambiar la imagen PNG
 2.- Mejorarlo porq no le gusto nada o hacer otro footer
