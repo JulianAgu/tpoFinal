@@ -49,6 +49,33 @@ body {
 
 /*  Home */
 
+/* Slideshow contenedor// carrusel// carrete */
+* {box-sizing:border-box}
+/*Posicion del carrusel*/
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Esconde las imagenes del slideshow*/
+.mySlides {
+  display: none;
+}
+
+/* Animacion al cambiar de foto*/
+.fade {
+    animation-name:fade;
+    animation-duration: 1.5s;
+}
+ 
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+//Codigo anterior
+/* 
 #main {
     height: 100vh;
     display: flex;
@@ -59,7 +86,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+*/
 /* Productos */
 
 #productMain {
