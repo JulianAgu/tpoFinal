@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ES">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    
     <title>Mamá Luchetti</title>
 
 </head>
@@ -16,56 +17,59 @@
     <header>
         <div class="container__header">	
             <div class="logo">
-                <img src="/media/lucchetti-logo-png-transparent.png" alt="Logo de la marca Lucchetti">
+                <a href="index.html"><img src="/media/lucchetti-logo-png-transparent.png" alt="Logo de la marca Lucchetti"></a> 
             </div>
 
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="#"> <b> Productos </b></a></li>
-                        <li><a href="#"> <b> Recetas </b></a></li>
-                        <li><a href="#"> <b> Sobre Nosotros </b></a></li>
-                        <li><a href="#"> <b> Novedades </b></a></li>
-                        <li><a href="#"> <b> Contacto </b></a></li>
+                        <li><a href="/productos.html"> <b> Productos </b></a></li>
+                        <li><a href="/recetas.html"> <b> Recetas </b></a></li>
+                        <li><a href="/conocenos.html"> <b> Conocenos </b></a></li>
+                        <li><a href="/novedades.html"> <b> Novedades </b></a></li>
+                        <li><a href="/contacto.html"> <b> Contacto </b></a></li>
                     </ul>
                 </nav>
             </div>
             <i class="fa-solid fa-bars" id="icon_menu"></i>
-            <div class="header__register">
-                <input type="button" class="btn__header-register" value="Registrarse">
-            </div>
         </div>
     </header>
-    
-         <!--Codigo de la imagenes de Background que alimenta el Slideshow -->
-    <div class="slideshow-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade"> <img src="/media/mamalucchetti.png" style="width:100%"></div>
-        <div class="mySlides fade"> <img src="/media/bolichemama.png" style="width:100%"></div> 
-        <div class="mySlides fade"> <img src="/media/carreramama.png" style="width:100%"></div>  
-    </div>   
-    
     <main>
+        <div>
+            <section> 
+                <!--Codigo de la imagenes de Background que alimenta el Slideshow -->
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade"> <img src="/media/mamalucchetti.png" style="width:100%"></div>
+                    <div class="mySlides fade"> <img src="/media/bolichemama.png" style="width:100%"></div>
+                    <div class="mySlides fade"> <img src="/media/carreramama.png" style="width:100%"></div>
+                </div>
+                <div style="padding-top: 20%; padding-right: 10px">
+                    <h1> BIENVENIDOS A NUESTRA CASA </h1> 
+                    <br>
+                    <p style="font-size: 22px">
+                        Hola mama! que gusto verte por aca <br> Te invitamos a recorrer todas nuestras secciones.
+                    <p>
+                </div>
+            </section>
+        </div>
     </main>
-
-    <script src="js/script.js"></script>
-
-
 
     <footer>
         <div>
-            <img src="/media/uade.png" alt="Logo de la facultad UADE">
+            <img class="uade" src="/media/uade.png" alt="Logo de la facultad UADE">
         </div>
         <div>
             <a class="icons" href="https://www.instagram.com/mamaluchetii/" target="_blank">
-                <img src="media/insta.png" alt="Logo de Instagram con link" width="30px">
+                <img src="media/insta.png" alt="Logo de Instagram con link" width="35px">
             </a>
             <a class="icons" href="https://www.facebook.com/MamaLucchetti" target="_blank">
-                <img src="media/face.png" alt="Logo de Facebook con link" width="30px">
+                <img src="media/face.png" alt="Logo de Facebook con link" width="35px">
             </a>
             <a class="icons" href="https://www.youtube.com/user/mamalucchettioficial" target="_blank">
-                <img src="media/youtu.png" alt="Logo de Youtube con link" width="30px">
+                <img src="media/youtu.png" alt="Logo de Youtube con link" width="35px">
             </a>  
+
             <ul>
                 <li> <i> Adriel Galvan (LU:1123253) </i>  </li>
                 <li> <i> Julian Agüero (LU: 1119962) </i>  </li>
@@ -73,11 +77,12 @@
                 <li> <i> Fernandez Edgar (LU:1156944) </i> </li>
                 <li> <i> Lautaro Ibarra (LU:1125848) </i>   </li>
             </ul>
-            <p> Profesor: Ayala Velarde David Ernesto </p>
             <br>
-            <p><b> Diseño y Desarrollo Web ~ Copyright &copy; 2022 </b></p>
+            <p> <b> Profesor: </b> Ayala Velarde David Ernesto </p>
+            <br>
+            <p style="margin-bottom: 20px;"><b> Diseño y Desarrollo Web ~ Copyright &copy; 2022 </b></p>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
