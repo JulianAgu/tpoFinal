@@ -27,3 +27,5 @@ Se cambio:
 -- Aside/Footer --
 1.- Cambiar la imagen PNG
 2.- Mejorarlo porq no le gusto nada o hacer otro footer
+
+ESTO ES BOOOOKEEE
