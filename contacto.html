@@ -8,6 +8,7 @@
     <meta name="description" content="El sitio de Mamá Lucchetti. Dedicado a madres con poco tiempo, familias felices porque la alimentacion es lo primero. Productos, recetas y más.">
     <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <script src="js/script2.js" defer></script> 
     <link rel="stylesheet" href="css/estilos.css">
     
     <title> Contacto </title>
@@ -49,15 +50,29 @@
             Commodi adipisci velit saepe sint dolore maxime dicta itaque reprehenderit sequi nemo, 
             ratione laudantium qui accusantium aperiam asperiores voluptatum id officiis aliquid.
         </p>
-        <br> 
+       
+        <!--
         <label for="aboutInput">Contanos más:</label>
         <textarea id="aboutInput" name="aboutInput" rows="4" cols="50">
         </textarea>
         <label for="emailInput">Email</label>
         <input type="email" name="emailInput" id="emailInput">
         <br>    
-        <button>ENVIAR</button>
+        <button>ENVIAR</button>-->
     </main>
+        <br> 
+    <form class="form-contacto" action="https://formsubmit.co/fernandezabiel78@gmail.com" method="POST">
+            <h4>Contactanos</h4>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <textarea style="width: 100%;" name="msn" id="mensaje" cols="30" rows="10" placeholder="Comentanos tu inquietud"></textarea>
+            <input class="botons" type="submit" id="envio-form" value="Enviar">
+            <img id="cargando_img"class="cargando"src="media/loader.webp" alt="Cargando">
+            <p id="enviado_txt"class="enviado">Consulta enviada</p>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+    </form>
     <footer>
         <div>
             <img class="uade" src="/media/uade.png" alt="Logo de la facultad UADE">
