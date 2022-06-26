@@ -44,11 +44,14 @@
        </div>
        <h2>Anotate!</h2>
        <div >
-        <form style="display:flex"> 
-            <input style="width:100%" type="email">
-            <input type="submit" value="Enviar" id="eventInput">    
+        <form class="form-novedades" style="display:flex" action="https://formsubmit.co/fernandezabiel78@gmail.com" method="POST" > 
+            <input class="controls-novedades" type="email" name="email" placeholder="Ingresa tu mail">
+            <input class="botons" type="submit" value="Enviar" id="eventInput">
+            <input type="hidden" name="_autoresponse" value="Hola, gracias por inscribirte">
+            <input type="hidden" name="_next" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/novedades.html">
+            
         </form> 
-
        </div>
     </main>
     <footer>
