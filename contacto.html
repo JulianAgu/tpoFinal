@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Mamá Lucchetti, Lucchetti, Cleopasta, Familia, Alimentacion, Pastas">
     <meta name="description" content="El sitio de Mamá Lucchetti. Dedicado a madres con poco tiempo, familias felices porque la alimentacion es lo primero. Productos, recetas y más.">
-    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
-    <script src="js/script2.js" defer></script> 
     <link rel="stylesheet" href="css/estilos.css">
     
     <title> Contacto </title>
@@ -18,17 +17,17 @@
     <header>
         <div class="container__header">	
             <div class="logo">
-                <a href="index.html"><img src="/media/lucchetti-logo-png-transparent.png" alt="Logo de la marca Lucchetti"></a> 
+                <a href="index.html"><img src="media/lucchetti-logo-png-transparent.png" alt="Logo de la marca Lucchetti"></a> 
             </div>
 
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="/productos.html"> <b> Productos </b></a></li>
-                        <li><a href="/recetas.html"> <b> Recetas </b></a></li>
-                        <li><a href="/conocenos.html"> <b> Conocenos </b></a></li>
-                        <li><a href="/novedades.html"> <b> Novedades </b></a></li>
-                        <li><a href="/contacto.html"> <b> Contacto </b></a></li>
+                        <li><a href="productos.html"> <b> Productos </b></a></li>
+                        <li><a href="recetas.html"> <b> Recetas </b></a></li>
+                        <li><a href="conocenos.html"> <b> Conocenos </b></a></li>
+                        <li><a href="novedades.html"> <b> Novedades </b></a></li>
+                        <li><a href="contacto.html" class="actualPage" > <b> Contacto </b></a></li>
                     </ul>
                 </nav>
             </div>
@@ -36,46 +35,27 @@
         </div>
     </header>
     <main id="contactMain">
-        <h1 class="golden">Contacto</h1>  
+        <h1 style="margin-top: 60px; margin-bottom: 30px;">Contacto</h1>  
         <div style="display:flex;width: 500px;margin: auto;">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quibusdam natus suscipit dolores provident obcaecati sed 
-                cupiditate non culpa itaque veniam possimus maiores odit accusamus temporibus, 
-                eveniet quae blanditiis impedit nemo!
-            </p>
+            <p> Hola! Creamos este espacio para que puedas compartir con nosotros las ideas, comentarios, consultas o lo que tengas para decirnos sin ningun tipo de restriccion. Estamos para acompañarte. </p>
             <img  src="img/contacto.jpg" alt="Mama Luchetti contacto">
         </div> 
-        <p style="width: 500px;margin: auto;margin-top: 10px;"> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Commodi adipisci velit saepe sint dolore maxime dicta itaque reprehenderit sequi nemo, 
-            ratione laudantium qui accusantium aperiam asperiores voluptatum id officiis aliquid.
+        <p style="margin: auto;margin-top: 40px; text-align: center;"> 
+           <b>
+            Sigamos creciendo juntos
+           </b> 
         </p>
-       
-        <!--
-        <label for="aboutInput">Contanos más:</label>
-        <textarea id="aboutInput" name="aboutInput" rows="4" cols="50">
-        </textarea>
-        <label for="emailInput">Email</label>
-        <input type="email" name="emailInput" id="emailInput">
-        <br>    
-        <button>ENVIAR</button>-->
+    
+        <label style="margin-top: 30px; margin-bottom:20px;" for="aboutInput">Contanos más:</label>
+        <textarea placeholder="Dejanos tus ideas !" id="aboutInput" name="aboutInput" rows="4" cols="50"></textarea>
+        <label style="margin-top: 20px; margin-bottom: 5px;" for="emailInput">Email:</label>
+        <input placeholder="e-mail" type="email" name="emailInput" id="emailInput">
+
+        <button style="margin-top: 10px; margin-bottom: 20px;">Enviar</button>
     </main>
-        <br> 
-    <form class="form-contacto" action="https://formsubmit.co/fernandezabiel78@gmail.com" method="POST">
-            <h4>Contactanos</h4>
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-            <textarea style="width: 100%;" name="msn" id="mensaje" cols="30" rows="10" placeholder="Comentanos tu inquietud"></textarea>
-            <input class="botons" type="submit" id="envio-form" value="Enviar">
-            <img id="cargando_img"class="cargando"src="media/loader.webp" alt="Cargando">
-            <p id="enviado_txt"class="enviado">Consulta enviada</p>
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="false">
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
-    </form>
     <footer>
         <div>
-            <img class="uade" src="/media/uade.png" alt="Logo de la facultad UADE">
+            <img class="uade" src="media/uade.png" alt="Logo de la facultad UADE">
         </div>
         <div>
             <a class="icons" href="https://www.instagram.com/mamaluchetii/" target="_blank">

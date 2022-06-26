@@ -1,32 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ES">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Mamá Luchetti, Luchetti, pastas, Cleopasta">
-    <meta name="description" content="El sitio de Mamá Luchetti. Productos, recetas y más.">
-    <link rel="stylesheet" href="../style.css">
-    <title>Moñitos con jamón</title>
-    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <meta name="keywords" content="Mamá Lucchetti, Lucchetti, Cleopasta, Familia, Alimentacion, Pastas">
+    <meta name="description" content="El sitio de Mamá Lucchetti. Dedicado a madres con poco tiempo, familias felices porque la alimentacion es lo primero. Productos, recetas y más.">
+    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/estilos.css">
+    
+    <title>Mamá Luchetti</title>
+
 </head>
 <body>
     <header>
-        <nav id="navBar">
-            <ul>
-                <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="../productos.html">Productos</a> </li>
-                <li> <a href="../recetas.html">Recetas</a> </li>
-                <li> <a href="../conocenos.html">Sobre Nosotros</a> </li>
-                <li> <a href="../novedades.html"> Novedades</a></li>
-                <li> <a href="../contacto.html">Contacto</a> </li>
-            </ul>
-        </nav>
+        <div class="container__header">	
+            <div class="logo">
+                <a href="index.html"><img src="/media/lucchetti-logo-png-transparent.png" alt="Logo de la marca Lucchetti"></a> 
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="/productos.html"> <b> Productos </b></a></li>
+                        <li><a href="/recetas.html"> <b> Recetas </b></a></li>
+                        <li><a href="/conocenos.html"> <b> Conocenos </b></a></li>
+                        <li><a href="/novedades.html"> <b> Novedades </b></a></li>
+                        <li><a href="/contacto.html"> <b> Contacto </b></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+        </div>
     </header>
-    <main id="productMain" style="margin-bottom: 50px;">
-       <h1 class="golden">Moñitos con jamón</h1>
+    <h1 style="text-align: center;margin-top: 40px;margin-bottom: 20px ;"> Moñitos con Jamon </h1>
+    <main id="productMain">
        <div style="display:flex;flex-wrap: wrap;padding:10px">
-        <img style="width: 330px;height: 343px;border:2px solid black" src="../img/monitosjamon.webp" alt="Moñitos con jamón">
+        <img style="width: 190px;height: 190px;border:2px solid black; margin-top: 40px; margin-right: 20px;" src="/media/moñitos.jpg" alt="Moñitos con jamón">
             <div style="margin-left: 10px;">
                 <h2 style="margin-top:0px;margin-bottom: 0px;">Ingredientes</h2>
                 <ul style="font-weight:400">
@@ -44,45 +55,34 @@
             <li>Condimentá con sal, pimienta y serví.</li>
         </ol>
     </main>
-    <aside id="studentsInformation" class="hidden">
-        <h2>Alumnos de Tecnicatura de Desarrollo de Software (FAIN)</h2>
-        <ul>
-            <li> <i> Adriel Galvan (LU:1123253) </i>  </li>
-            <li> <i> Julian Agüero (LU: 1119962) </i>  </li>
-            <li> <i> Angeles Macrino (LU:1154810) </i>  </li>
-            <li> <i> Fernandez Edgar (LU:1156944) </i> </li>
-            <li> <i> Lautaro Ibarra (LU:1125848) </i>   </li>
-        </ul>
-        <img src="../img/uadeLogo.png" alt="Logo UADE" style="float:right;">
-        <h2>Profesor:</h2>
-        <p>
-            <b>Ayala Velarde David Ernesto</b>
-        </p>
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26271.833725419638!2d-58.4006690213032!3d-34.60468707585891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba6ac89b35%3A0x1a2dc24cbca665a7!2sUADE!5e0!3m2!1ses-419!2sar!4v1655523523125!5m2!1ses-419!2sar" 
-            width="300" 
-            height="150" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-    </aside>
-    <footer id="footer">
-        <div class="flexContainer">
+    <footer>
+        <div>
+            <img class="uade" src="/media/uade.png" alt="Logo de la facultad UADE">
+        </div>
+        <div>
+            <a class="icons" href="https://www.instagram.com/mamaluchetii/" target="_blank">
+                <img src="/media/insta.png" alt="Logo de Instagram con link" width="35px">
+            </a>
+            <a class="icons" href="https://www.facebook.com/MamaLucchetti" target="_blank">
+                <img src="/media/face.png" alt="Logo de Facebook con link" width="35px">
+            </a>
+            <a class="icons" href="https://www.youtube.com/user/mamalucchettioficial" target="_blank">
+                <img src="/media/youtu.png" alt="Logo de Youtube con link" width="35px">
+            </a>  
 
-            <button id="footerButton">Alumnos</button>
-            <a href="https://www.instagram.com/mamaluchetii/" target="_blank">
-                <img src="../img/instagram.png" alt="Instagram" class="footerIcon">
-            </a>
-            <a href="https://www.facebook.com/MamaLucchetti" target="_blank">
-                <img src="../img/facebook.png" alt="Facebook" class="footerIcon">
-            </a>
-            <a href="https://www.youtube.com/user/mamalucchettioficial" target="_blank">
-                <img src="../img/youtube.png" alt="Youtube" class="footerIcon">
-            </a>
+            <ul>
+                <li> <i> Adriel Galvan (LU:1123253) </i>  </li>
+                <li> <i> Julian Agüero (LU: 1119962) </i>  </li>
+                <li> <i> Angeles Macrino (LU:1154810) </i>  </li>
+                <li> <i> Fernandez Edgar (LU:1156944) </i> </li>
+                <li> <i> Lautaro Ibarra (LU:1125848) </i>   </li>
+            </ul>
+            <br>
+            <p> <b> Profesor: </b> Ayala Velarde David Ernesto </p>
+            <br>
+            <p style="margin-bottom: 20px;"><b> Diseño y Desarrollo Web ~ Copyright &copy; 2022 </b></p>
         </div>
     </footer>
-    <script src="../js/javascript.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
