@@ -4,6 +4,7 @@ document.getElementById("icon_menu").addEventListener("click", mostrar_menu);
 function mostrar_menu(){
 
     document.querySelector(".menu").classList.toggle("mostrar_menu");   
+    document.querySelector("body").classList.toggle("menu_abierto");   
 }
 
 //Codigo js para el cambio automatico de las imagenes //
